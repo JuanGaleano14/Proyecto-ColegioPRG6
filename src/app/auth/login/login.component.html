@@ -2,7 +2,7 @@
   <div class="col-md-6 mx-auto mt-5">
     <div class="card">
       <div class="card-body">
-        <h1 class="text-center">LOGIN</h1>
+        <h1 class="text-center">INICIAR SESIÓN</h1>
         <form [formGroup]="loginForm" (ngSubmit)="onLogin()">
           <div class="form-group">
             <label for="email">Email</label>
@@ -21,18 +21,13 @@
           </button>
         </form>
         <div class="form-group mt-3">
-          <button (click)="onGoogleLogin()" class="btn btn-lg btn-google">
-            Google
-          </button>
-        </div>
-        <div class="form-group mt-3">
           <p>
-            Create an account ? <a [routerLink]="['/register']"> Register </a>
+            Crearse una cuenta? <a [routerLink]="['/register']"> Registrarse</a>
           </p>
         </div>
         <div class="form-group mt-3">
           <p>
-            <a [routerLink]="['/forgot-password']"> Forgot password ? </a>
+            <a [routerLink]="['/forgot-password']"> Olvidó su contraseña? </a>
           </p>
         </div>
       </div>

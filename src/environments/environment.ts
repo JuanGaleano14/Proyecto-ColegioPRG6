@@ -4,6 +4,15 @@
 
 export const environment = {
   production: false,
+  firebaseConfig : {
+  apiKey: "AIzaSyCu3B0DReq4j3Z8n8DsYq9h0FP0kZPw9e0",
+  authDomain: "proyecto-colegio-d10dc.firebaseapp.com",
+  databaseURL: "https://proyecto-colegio-d10dc.firebaseio.com",
+  projectId: "proyecto-colegio-d10dc",
+  storageBucket: "proyecto-colegio-d10dc.appspot.com",
+  messagingSenderId: "222053607354",
+  appId: "1:222053607354:web:3be1da09b82f5b70e8df83"
+  }
 };
 
 /*

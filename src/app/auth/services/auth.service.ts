@@ -56,7 +56,7 @@ export class AuthService extends RoleValidator {
         email,
         password
       );
-      this.updateUserData(user);
+      // this.updateUserData(user);
       return user;
     } catch (error) {
       console.log(error);
@@ -95,7 +95,7 @@ export class AuthService extends RoleValidator {
       emailVerified: user.emailVerified,
       displayName: user.displayName,
       photoURL: user.photoURL,
-      role: 'ADMIN',
+      role: 'EDITOR',
     };
 
     return userRef.set(data, { merge: true });
